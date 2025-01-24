@@ -63,7 +63,7 @@ const RecentProjects = () => {
                     ))}
                   </div>
 
-                  {item.id !== 2 && (
+                  {item.id !== 3 && (
                     <a
                       href={item.link}
                       target="_blank"
@@ -77,7 +77,7 @@ const RecentProjects = () => {
                       <FaLocationArrow className="ms-3" color="#CBACF9" />
                     </a>
                   )}
-                  {item.id === 2 && (
+                  {item.id === 3 && (
                     <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                       In Progress
                     </p>

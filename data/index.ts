@@ -71,7 +71,7 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 2,
+    id: 3,
     title: "In progress: RapidArtz Store",
     des: "A full-stack ecommerce website with a payment gateway and user authentication using Django as the back end.",
     img: "/p1.svg",
@@ -79,7 +79,7 @@ export const projects = [
     link: "In progress",
   },
   {
-    id: 3,
+    id: 4,
     title: "Random Quote Machine",
     des: "A web app that displays a random quote and allows users to fetch new quotes with the click of a button. Built with React, Redux, and TypeScript to showcase frontend development skills.",
     img: "/p2.svg",
@@ -87,7 +87,7 @@ export const projects = [
     link: "https://github.com/mshaikhly/fCC-random-quote-machine",
   },
   {
-    id: 4,
+    id: 5,
     title: "Drum Machine",
     des: "Unleash your inner musician with this interactive drum machine. Play different drum sounds using the keyboard or on-screen pads.",
     img: "/p3.svg",
@@ -95,7 +95,7 @@ export const projects = [
     link: "https://github.com/mshaikhly/fCC-drum-machine",
   },
   {
-    id: 5,
+    id: 6,
     title: "JavaScript Calculator",
     des: "Perform basic arithmetic operations with ease using this modern calculator app built with React, TypeScript, and Vite.",
 
@@ -104,13 +104,22 @@ export const projects = [
       link: "https://github.com/mshaikhly/fCC-Javascript-Calculator",
   },
   {
-    id: 1,
+    id: 2,
     title: "Expand Accounting Services Website",
     des: "A website for a real accounting firm built with Next.js 15 using TypeScript and Tailwind CSS. Features a responsive design, a working contact form, and Calendly integration to book consultations.",
 
       img: "/p5.svg",
       iconLists: ["/re.svg", "/next.svg", "/ts.svg", "/tail.svg"],
       link: "https://www.expandreporting.com",
+  },
+  {
+    id: 1,
+    title: "LumeTasks",
+    des: "LumeTasks is a task tracker and planner designed to help you stay organized and productive. It is a showcase of my web design and software engineering skills.",
+
+      img: "/p6.svg",
+      iconLists: ["/re.svg", "/next.svg", "/ts.svg", "/tail.svg"],
+      link: "https://lumetasks.vercel.app/",
   },
 ];
 
